@@ -68,7 +68,7 @@ var NavigationBarRouteMapper = {
     return (
       <TouchableOpacity style={{flex: 1, justifyContent: 'center'}}>
         <Text style={{color: 'white', margin: 10, fontSize: 16}}>
-          Employees
+          Students
         </Text>
       </TouchableOpacity>
     );
