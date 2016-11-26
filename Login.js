@@ -17,7 +17,7 @@ import {
 class LoginPage extends Component {
     constructor(props) {
         super(props);
-        console.log('EmployeeManager - constructor');
+        console.log('SistemInformatic - constructor');
         this.state = {
             username: '',
             password: '',
@@ -41,7 +41,7 @@ class LoginPage extends Component {
                                       }
                                       }>
                         <Text style={{color: 'white', margin: 1, fontSize: 16}}>
-                            EmployeeManager
+                            SistemInformatic
                         </Text>
                     </TouchableOpacity>
                 );
@@ -50,7 +50,7 @@ class LoginPage extends Component {
     }
 
   render() {
-      console.log('LoginPage - render');
+      console.log('Login - render');
 
     return (
       <Navigator
@@ -67,7 +67,7 @@ class LoginPage extends Component {
       <View style={{flex: 1, alignItems: 'center', marginTop: 90}}>
           <Text style={{textAlign: 'center', fontSize: 20}}>Welcome to EmployeeManager! </Text>
 
-          <Image source={require('./img/employees.png')} style={{width: 193, height: 130, marginTop: 10}}/>
+          <Image source={require('./img/students.png')} style={{width: 193, height: 130, marginTop: 10}}/>
 
           <TextInput placeholder='Enter username...'
                      style={{width:200, textAlign: 'center'}}
@@ -123,4 +123,4 @@ class LoginPage extends Component {
   }
 }
 
-module.exports = LoginPage;
+module.exports = Login;
