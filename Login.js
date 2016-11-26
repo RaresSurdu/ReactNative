@@ -14,7 +14,7 @@ import {
   Alert
 } from 'react-native';
 
-class LoginPage extends Component {
+class Login extends Component {
     constructor(props) {
         super(props);
         console.log('SistemInformatic - constructor');
