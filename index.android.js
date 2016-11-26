@@ -12,7 +12,7 @@ import {
 } from 'react-native';
 
 var SplashPage = require('./SplashPage');
-var LoginPage = require('./LoginPage');
+var LoginPage = require('./Login');
 var MainPage = require('./MainPage');
 var PersonPage = require('./PersonPage');
 var NoNavigatorPage = require('./NoNavigatorPage');
