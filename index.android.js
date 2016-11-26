@@ -51,7 +51,7 @@ class App extends Component {
             navigator={navigator} />
       );
     }
-    if (routeId === 'PersonPage') {
+    if (routeId === 'Person') {
       return (
         <PersonPage
           navigator={navigator} />
