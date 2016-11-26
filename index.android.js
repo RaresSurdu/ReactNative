@@ -14,7 +14,7 @@ import {
 var SplashPage = require('./SplashPage');
 var LoginPage = require('./Login');
 var MainPage = require('./MainPage');
-var PersonPage = require('./PersonPage');
+var PersonPage = require('./Person');
 var NoNavigatorPage = require('./NoNavigatorPage');
 
 class App extends Component {
