@@ -13,7 +13,7 @@ import {
 class MainPage extends Component {
   constructor(props) {
     super(props);
-    console.log('EmployeeManager - MainPage constructor');
+    console.log('SistemInformatic - MainPage constructor');
     this.username = props.username;
     this.password = props.password;
     }
@@ -44,8 +44,8 @@ class MainPage extends Component {
   }
   gotoPersonPage() {
     this.props.navigator.push({
-      id: 'PersonPage',
-      name: 'Person Page',
+      id: 'Person',
+      name: 'Person',
     });
   }
 }
