@@ -39,7 +39,7 @@ class App extends Component {
           navigator={navigator} />
       );
     }
-    if (routeId === 'LoginPage') {
+    if (routeId === 'Login') {
       return (
         <LoginPage
           navigator={navigator} />
